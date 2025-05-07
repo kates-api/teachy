@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teachy.Api", "Teachy.Api\Teachy.Api.csproj", "{1A4F64C8-3FD3-41C1-A741-3CCA797F5E74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teachy.Application", "Teachy.Application\Teachy.Application.csproj", "{11076E0F-A1DE-4549-9DAA-C367D03927B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__SolutionItems", "__SolutionItems", "{0C3E3E96-2E6E-427F-91D6-EAB694DC585A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{469CD8B4-19F6-4587-9DA9-F09603E7728B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,9 @@ Global
 		{1A4F64C8-3FD3-41C1-A741-3CCA797F5E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4F64C8-3FD3-41C1-A741-3CCA797F5E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4F64C8-3FD3-41C1-A741-3CCA797F5E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11076E0F-A1DE-4549-9DAA-C367D03927B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11076E0F-A1DE-4549-9DAA-C367D03927B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11076E0F-A1DE-4549-9DAA-C367D03927B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11076E0F-A1DE-4549-9DAA-C367D03927B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
